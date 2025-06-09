@@ -1,4 +1,3 @@
-
 # 🧠 Simulador de Escalonamento de CPU
 
 Este é um simulador gráfico de algoritmos de escalonamento de CPU feito com Python e PyQt5. O app permite visualizar de forma interativa como diferentes algoritmos tratam os processos e quem termina primeiro.
@@ -13,7 +12,6 @@ Este é um simulador gráfico de algoritmos de escalonamento de CPU feito com Py
   * **SJF (Shortest Job First)**
 * Barra de progresso para cada processo
 * Alerta com o **vencedor** (primeiro processo finalizado)
-
 
 ## 🛠️ Requisitos
 
@@ -47,16 +45,12 @@ PROCESSOS = [
 
 Você pode personalizar os processos trocando os nomes e tempos no código.
 
-## 🎯 Objetivo
+## 🤖 Uso de Inteligência Artificial
 
-Esse projeto foi criado com fins **educacionais**, para ajudar a entender na prática como os algoritmos de escalonamento funcionam e como eles afetam a ordem de execução dos processos.
+Partes deste projeto foram organizadas e refatoradas com o auxílio de uma IA (ChatGPT), especialmente para:
 
-## 📌 Melhorias futuras (ideias)
+* Criar este arquivo `README.md` com explicações claras e bem formatadas
+* Usada para auxiliar na criacao dos algoritimos de escalonamento
 
-* Adicionar suporte a mais algoritmos (como Prioridade ou Multinível)
-* Permitir adicionar/remover processos pela interface
-* Mostrar tempos médios de espera e turnaround
+O código original foi desenvolvido manualmente, e a IA atuou como assistente de escrita e organização.
 
-## 📚 Licença
-
-Este projeto é livre para uso acadêmico e pessoal.
